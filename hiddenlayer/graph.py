@@ -85,7 +85,8 @@ class Node():
         if "kernel_shape" in self.params:
             # Kernel
             kernel = self.params["kernel_shape"]
-            title += "x".join(map(str, kernel))
+            if kernel is not None:
+                title += "x".join(map(str, kernel))
         if "stride" in self.params:
             stride = self.params["stride"]
             if np.unique(stride).size == 1:
