@@ -141,5 +141,5 @@ pip install hiddenlayer
 Use the following if you just want to install the latest version of the library:
 
 ```bash
-pip install git+https://github.com/waleedka/hiddenlayer.git
+pip install git+https://github.com/Foxglove144/hiddenlayer.git
 ```
