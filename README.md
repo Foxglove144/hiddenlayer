@@ -1,6 +1,6 @@
 # HiddenLayer
 
-A lightweight library for neural network graphs and training metrics for PyTorch, Tensorflow, and Keras.
+A lightweight library for neural network graphs and training metrics for PyTorch.
 
 HiddenLayer is simple, easy to extend, and works great with Jupyter Notebook.
 It's not intended to replace advanced tools, such as TensorBoard, but rather for cases where advanced tools are too big for the task.
@@ -9,7 +9,7 @@ HiddenLayer was written by Waleed Abdulla and Phil Ferriere, and is licensed und
 ## 1. Readable Graphs
 
 Use HiddenLayer to render a graph of your neural network in Jupyter Notebook, or to a pdf or png file.
-See Jupyter notebook examples for [TensorFlow](demos/tf_graph.ipynb), [PyTorch](demos/pytorch_graph.ipynb), and [Keras](demos/keras_graph.ipynb).
+See Jupyter notebook examples for [PyTorch](demos/pytorch_graph.ipynb).
 
 ![](assets/readme_graph.png) 
 
@@ -62,7 +62,7 @@ class MyCanvas(hl.Canvas):
         self.ax.pie([value, 1-value], labels=["Accuracy", ""])
 ```
 
-See the [pytorch_train.ipynb](demos/pytorch_train.ipynb) or [tf_train.ipynb](demos/tf_train.ipynb) for an example.
+See the [pytorch_train.ipynb](demos/pytorch_train.ipynb) for an example.
 
 ![](assets/readme_canvas_piechart.gif)
 
@@ -77,16 +77,6 @@ The [`keras_train.ipynb`](demos/keras_train.ipynb) notebook contains an actual t
 This notebook shows how to generate graphs for a few popular Pytorch models.
 - [`pytorch_train.ipynb`](demos/pytorch_train.ipynb): Explains tracking and displaying training metrics.
 - [`history_canvas.py`](demos/history_canvas.py): An example of using HiddenLayer without a GUI.
-
-**TensorFlow:**
-
-- [`tf_graph.ipynb`](demos/tf_graph.ipynb): This notebook illustrates how to generate graphs for various TF SLIM models.
-- [`tf_train.ipynb`](demos/tf_train.ipynb): Demonstrates tracking and visualizing training metrics  with TensorFlow.
-- [`history_canvas.py`](demos/history_canvas.py): An example of using HiddenLayer without a GUI.
-
-**Keras:**
-- [`keras_graph.ipynb`](demos/keras_graph.ipynb): This notebook illustrates how to generate graphs for various Keras models.
-- [`keras_train.ipynb`](demos/keras_train.ipynb): Demonstrates model graphing, visualization of training metrics, and how to create a custom Keras callback that uses a subclassed `Canvas` in order to plot a confusion matrix at the end of each training epoch.
 
 # Contributing
 
@@ -103,7 +93,7 @@ If you like to contribute new features, here are a few things we wanted to add b
 ## 1. Prerequisites
 
 - a. Python3, Numpy, Matplotlib, and Jupyter Notebook. 
-- b. Either TensorFlow or PyTorch
+- b. PyTorch
 - c. GraphViz and its Python wrapper to generate network graphs. The easiest way to install it is 
 
     **If you use Conda:**
