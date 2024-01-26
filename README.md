@@ -66,9 +66,6 @@ See the [pytorch_train.ipynb](demos/pytorch_train.ipynb) for an example.
 
 ![](assets/readme_canvas_piechart.gif)
 
-The [`keras_train.ipynb`](demos/keras_train.ipynb) notebook contains an actual training example that illustrates how to create a custom `Canvas` to plot a confusion matrix alongside validation metrics:
-
-![](assets/readme_canvas_cm.gif)
 
 # Demos
 
