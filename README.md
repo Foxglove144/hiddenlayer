@@ -100,7 +100,7 @@ If you like to contribute new features, here are a few things we wanted to add b
     
     **If you use Colab**
    
-    You can directly jump to [Install HiddenLayer](https://github.com/Foxglove144/hiddenlayer?tab=readme-ov-file#2-install-hiddenlayer) 
+    You can directly jump to [installation](#install-hiddenlayer) 
 
     **Otherwise:**
     * [Install GraphViz](https://graphviz.gitlab.io/download/)
