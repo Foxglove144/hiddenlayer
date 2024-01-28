@@ -166,9 +166,9 @@ def build_graph(model=None, args=None, input_names=None,
 class Graph():
     """Tracks nodes and edges of a directed graph and supports basic operations on them."""
 
-    def __init__(self, model=None, args=None, input_names=None,
+    def __init__(self, rankdir, model=None, args=None, input_names=None,
                  transforms="default", framework_transforms="default",
-                 meaningful_ids=False, rankdir="LR"):
+                 meaningful_ids=False):
         self.nodes = {}
         self.edges = []
         self.meaningful_ids = meaningful_ids # TODO
