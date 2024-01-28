@@ -87,17 +87,21 @@ If you like to contribute new features, here are a few things we wanted to add b
 
 # Installation
 
-## 1. Prerequisites
+## Prerequisites
 
-- a. Python3, Numpy, Matplotlib, and Jupyter Notebook. 
-- b. PyTorch
-- c. GraphViz and its Python wrapper to generate network graphs. The easiest way to install it is 
+1. Python3, Numpy, Matplotlib, and Jupyter Notebook. 
+2. PyTorch
+3. GraphViz and its Python wrapper to generate network graphs. The easiest way to install it is 
 
     **If you use Conda:**
     ```bash
     conda install graphviz python-graphviz
     ```
     
+    **If you use Colab**
+   
+    You can directly jump to [Install HiddenLayer](https://github.com/Foxglove144/hiddenlayer?tab=readme-ov-file#2-install-hiddenlayer) 
+
     **Otherwise:**
     * [Install GraphViz](https://graphviz.gitlab.io/download/)
     * Then install the [Python wrapper for GraphViz](https://github.com/xflr6/graphviz) using pip:
@@ -105,7 +109,7 @@ If you like to contribute new features, here are a few things we wanted to add b
         pip3 install graphviz
         ```
 
-## 2. Install HiddenLayer
+## Install HiddenLayer
 
 Install directly from GitHub if you just want to install the latest version of the library:
 
