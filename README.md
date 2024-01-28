@@ -111,7 +111,7 @@ If you like to contribute new features, here are a few things we wanted to add b
 
 ## Install HiddenLayer
 
-Install directly from GitHub if you just want to install the latest version of the library:
+Install directly from GitHub if you want to install the latest version of the library:
 
 ```bash
 pip install git+https://github.com/Foxglove144/hiddenlayer.git
