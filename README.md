@@ -115,4 +115,6 @@ Install directly from GitHub if you want to install the latest version of the li
 
 ```bash
 pip install git+https://github.com/Foxglove144/hiddenlayer.git
+cd hiddenlayer/
+pip install .
 ```
